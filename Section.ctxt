@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=square\ aSquare
+comment0.target=void\ update(Square[][],\ Square)
+comment0.text=\n\ Updates\ the\ state\ of\ a\ square\n\ \n\ @param\ square\ a\ 2-D\ array\ of\ Squares\ representing\ each\n\ \ \ \ \ \ \ \ Square\ on\ the\ sudoku\ board\n\ @param\ aSquare\ one\ Square\ on\ the\ sudoku\ board\n
+comment1.params=square
+comment1.target=int[]\ getPair(Square[][])
+comment1.text=\n\ Returns\ a\ pair\ of\ possible\ values\ that\ at\ least\ two\ squares\ in\ the\ same\n\ section\ have\ as\ their\ only\ possible\ values.\n\ \n\ @param\ square\ a\ 2-D\ array\ of\ Squares\n\ @return\ array\ of\ int\ of\ length\ two\ that\ contains\ the\ first\ pair\ of\n\ \ \ \ \ \ \ \ \ possible\ values\ that\ occur\ in\ two\ squares\ of\ this\ section;\n\ \ \ \ \ \ \ \ \ null\ if\ no\ such\ pair\ exists\n
+comment2.params=square\ pair
+comment2.target=boolean\ processPair(Square[][],\ int[])
+comment2.text=\n\ Removes\ a\ pair\ of\ possible\ values\ from\ the\ squares\ in\ the\n\ same\ section\ that\ are\ not\ a\ square\ that\ only\ has\ the\ two\ \n\ possible\ values\n\ \n\ @param\ pair\ an\ array\ of\ int\ of\ length\ two\ that\ contains\ pair\ of\ possible\n\ \ \ \ \ \ \ \ values\n\ @param\ square\ a\ 2-D\ array\ from\ which\ the\ two\ values\ are\ removed\ \n\ \ \ \ \ \ \ \ from\ all\ squares\ in\ the\ same\ row\ not\ having\ the\ pair\ as\n\ \ \ \ \ \ \ \ their\ only\ possible\ values\n\ @return\ whether\ this\ method\ made\ progress\ in\ solving\ the\n\ \ \ \ \ \ \ \ \ puzzle\ by\ removing\ any\ possible\ value.\n
+comment3.params=squares\ s
+comment3.target=int\ findUniqueValue(Square[][],\ Square)
+comment3.text=\n\ Returns\ the\ possible\ value\ that\ is\ unique\ to\ one\ square\ in\ the\ section,\n\ if\ there\ is\ such\ a\ value.\n\ \n\ @param\ squares\ the\ 2-D\ array\ of\ Squares\n\ @param\ s\ the\ Square\n\ @return\ an\ integer\ between\ 1\ to\ 9\ that\ is\ a\ unique\ \n\ \ \ \ \ \ \ \ \ possible\ value;\ otherwise,\ if\ that\ value\ doesn't\ exist,\n\ \ \ \ \ \ \ \ \ returns\ -1\n
+comment4.params=squares\ v
+comment4.target=boolean\ hasValue(Square[][],\ int)
+comment4.text=\n\ Determines\ a\ Square\ in\ a\ section\ already\ has\ a\ certain\ value\ \n\ \n\ @param\ squares\ a\ 2-D\ array\ of\ Squares\ representing\ each\n\ \ \ \ \ \ \ \ Square\ on\ the\ sudoku\ board\n\ @param\ v\ a\ value\ from\ 1\ to\ 9\n\ @return\ true\ if\ the\ section\ already\ has\ the\ value;\ otherwise,\n\ \ \ \ \ \ \ \ \ false\n
+numComments=5
