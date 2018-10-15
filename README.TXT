@@ -1,12 +1,5 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: SudokuSolver
+PURPOSE OF PROJECT: To solve Sudoku puzzles, which are in the form of 2D, 9 by 9 arrays of values, where a value of 0 denotes a blank square.
+VERSION or DATE: 6/2017
+AUTHOR: Megan Tjandrasuwita
+USER INSTRUCTIONS: Run SudokuSolver.java
